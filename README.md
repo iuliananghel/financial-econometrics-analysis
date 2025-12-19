@@ -38,11 +38,11 @@ Application of the classic asset pricing framework to decompose portfolio return
 * The returns distribution exhibits **excess kurtosis**, confirming that extreme events occur more frequently than predicted by a Normal distribution.
 * The **Fama-French decomposition** provides insights into the risk factor exposures of the analyzed assets relative to global market benchmarks.
 
-## 📁 Repository Structure
+## Repository Structure
 * `"".ipynbIN`: The main Jupyter Notebook containing the full code, mathematical derivations, and visual results.
 * `requirements.txt`: List of Python dependencies required to run the analysis.
 
-## ⚙️ How to Run
+## How to Run
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-username/financial-econometrics-analysis.git](https://github.com/your-username/financial-econometrics-analysis.git)
