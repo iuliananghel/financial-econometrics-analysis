@@ -1,6 +1,3 @@
-# financial-econometrics-analysis
-Financial econometrics analysis of FTSE MIB stylized facts, featuring GARCH volatility modelling and application of the CAPM and Fama-French 3-Factor models using Python
-
 # Financial Econometrics Analysis: FTSE MIB Stylized Facts & Factor Models
 
 This repository contains a comprehensive financial econometrics study conducted in Python. The analysis focuses on the statistical properties of the Italian stock market (FTSE MIB), the modeling of conditional volatility, and the implementation of asset pricing factor models.
