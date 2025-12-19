@@ -36,10 +36,13 @@ Application of the classic asset pricing framework to decompose portfolio return
 * The **Fama-French decomposition** provides insights into the risk factor exposures of the analyzed assets relative to global market benchmarks.
 
 ## Repository Structure
-* `"".ipynbIN`: The main Jupyter Notebook containing the full code, mathematical derivations, and visual results.
-* `requirements.txt`: List of Python dependencies required to run the analysis.
+`data/`: Folder containing datasets (Fama-French factors).
+* `LICENSE`: MIT License for open-source distribution.
+* `requirements.txt`: List of Python dependencies (pandas, numpy, arch, statsmodels, yfinance).
+* `"FTSE-MIB Financial Econometrics Project".ipynbIN`: The main Jupyter Notebook containing the full code, mathematical derivations, and visual results.
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/financial-econometrics-analysis.git](https://github.com/your-username/financial-econometrics-analysis.git)
+## Reproducibility
+The analysis is designed to be fully reproducible:
+* **Market Data:** Automatically downloaded via the `yfinance` API for the period 1997-2024.
+* **Risk Factors:** The Fama-French 3-factor data (Market Premium, SMB, HML) is integrated into the workflow to analyze the risk drivers of the Italian market.
+* **Statistical Rigor:** All findings, including the rejection of normality (Jarque-Bera) and the presence of unit roots (ADF), are supported by formal statistical testing.
