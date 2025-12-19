@@ -1,2 +1,48 @@
 # financial-econometrics-analysis
-Financial econometrics analysis of FTSE MIB stylized facts, featuring GARCH volatility modelling and the Fama-French 3-Factor model for asset pricing using Python
+Financial econometrics analysis of FTSE MIB stylized facts, featuring GARCH volatility modelling and application of the CAPM and Fama-French 3-Factor models using Python
+
+# Financial Econometrics Analysis: FTSE MIB Stylized Facts & Factor Models
+
+This repository contains a comprehensive financial econometrics study conducted in Python. The analysis focuses on the statistical properties of the Italian stock market (FTSE MIB), the modeling of conditional volatility, and the implementation of asset pricing factor models.
+
+## Project Overview
+
+The project is structured into three main econometric pillars:
+
+### 1. Analysis of Stylized Facts (FTSE MIB)
+Detailed investigation of the statistical properties of the FTSE MIB returns, including:
+* **Volatility Clustering:** Examination of the tendency of large changes in asset prices to be followed by large changes.
+* **Fat Tails (Kurtosis):** Statistical testing for non-normality and leptokurtic distribution of financial returns.
+* **Autocorrelation:** Analysis of return independence and squared return dependency.
+
+### 2. Volatility Modelling (GARCH)
+Implementation of **Generalized Autoregressive Conditional Heteroskedasticity (GARCH)** models to capture and forecast time-varying volatility. 
+* Model selection based on Information Criteria (AIC/BIC).
+* Residual diagnostics to ensure model adequacy.
+
+### 3. CAPM and Fama-French 3-Factor Model
+Application of the classic asset pricing framework to decompose portfolio returns:
+* **Market Risk Premium:** Exposure to the overall market movement.
+* **Size Premium (SMB - Small Minus Big):** Analysis of the market capitalization effect.
+* **Value Premium (HML - High Minus Low):** Analysis of the book-to-market ratio effect.
+
+## Tech Stack
+* **Language:** Python 3.x
+* **Libraries:** * `pandas` & `numpy` for data manipulation.
+    * `matplotlib` & `seaborn` for advanced data visualization.
+    * `statsmodels` for rigorous statistical testing and OLS regressions.
+    * `arch` for GARCH process estimation.
+
+## Key Insights
+* The FTSE MIB shows significant evidence of **volatility clustering**, especially during periods of market stress.
+* The returns distribution exhibits **excess kurtosis**, confirming that extreme events occur more frequently than predicted by a Normal distribution.
+* The **Fama-French decomposition** provides insights into the risk factor exposures of the analyzed assets relative to global market benchmarks.
+
+## 📁 Repository Structure
+* `"".ipynbIN`: The main Jupyter Notebook containing the full code, mathematical derivations, and visual results.
+* `requirements.txt`: List of Python dependencies required to run the analysis.
+
+## ⚙️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/financial-econometrics-analysis.git](https://github.com/your-username/financial-econometrics-analysis.git)
